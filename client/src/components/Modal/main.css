@@ -1,0 +1,23 @@
+.containerModal {
+  background-color: rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.containerModalContent {
+  /* background: rgb(59, 56, 56); */
+  width: 300px;
+  padding: 10px 20px;
+  height: 80vh;
+  margin: 10vh auto;
+  position: relative;
+}
+
+.btnClose {
+  display: block;
+  margin-bottom: 30px;
+}

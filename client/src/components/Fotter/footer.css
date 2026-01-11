@@ -1,0 +1,25 @@
+.containerFooter {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+footer p {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.mostGifs {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.copirigth {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5px;
+}

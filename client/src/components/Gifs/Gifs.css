@@ -1,0 +1,40 @@
+.containerGifs {
+  width: 100%;
+
+  display: inline-block;
+}
+
+.containerGifWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.h3Gifs {
+  color: white;
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 10px;
+  text-align: center;
+}
+
+.linkGifs {
+  text-decoration: none;
+}
+
+img {
+  height: 210px;
+  width: 263px;
+  box-shadow: inset 0 -3em 3em rgb(0 0 0), 0 0 0px 2px rgb(255 255 255),
+    0.3em 0.3em 1em rgb(0 0 0 / 29%);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.277);
+  display: block;
+  margin: auto;
+}
+
+img:hover {
+  box-shadow: inset 0 -3em 3em rgb(0 0 0), 0 0 0px 2px var(--colors-ramdon),
+    0.3em 0.3em 1em rgb(0 0 0 / 29%);
+}

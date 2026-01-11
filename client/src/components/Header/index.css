@@ -1,0 +1,8 @@
+.containerLogout {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+:where(.css-dev-only-do-not-override-1n7nwfa).ant-btn-link {
+  color: white;
+}

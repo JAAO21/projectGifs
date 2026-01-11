@@ -1,0 +1,47 @@
+# 🎬 GIFs Backend
+
+Backend en **Node.js + Express + MongoDB (Mongoose)** para gestión de usuarios y GIFs favoritos.
+
+## 🚀 Instalación
+
+````bash
+npm install
+
+## 🚀 Ejecución
+```bash
+npm run start   # Producción
+npm run dev     # Desarrollo
+
+🌐 Rutas principales
+Auth / User
+POST /api/auth/signIn → Iniciar sesión
+
+POST /api/auth/signUp → Registrar usuario
+
+GET /api/user/findAllUsers → Listar usuarios
+
+GET /api/user/findByIdUser/:id → Usuario por ID
+
+GIFs favoritos
+POST /api/gifs/createFavGif → Crear favorito
+
+GET /api/gifs/allFavGif → Listar favoritos
+
+GET /api/gifs/findCodeFavGif/:code → Buscar por código
+
+DELETE /api/gifs/deleteFavoriteGif/:id → Eliminar favorito
+
+🗂️ Modelos
+User: username, email, password, favorites
+
+Gif: title, url, code, tags, createdBy
+
+⚙️ Tecnologías
+Node.js
+
+Express
+
+MongoDB
+
+Mongoose
+````

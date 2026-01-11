@@ -1,0 +1,27 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containerTrendingSearches {
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 36px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+
+}
+.ulTrendingSearches{
+    text-align: center;
+}
+.ulLinkTrendingSearches {
+    
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 30px;
+}

@@ -1,0 +1,39 @@
+.containerLogin {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btnHomeSend {
+    background-color: #727baf;
+    font-family: cursive;
+    color: white;
+    height: 30px;
+    border-radius: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.containerLoginCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 192px;
+    width: 25%;
+    box-shadow: inset 0 -3em 3em rgb(0 0 0), 0 0 0px 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 29%);
+    padding: 148px;
+}
+
+form input{
+    margin-bottom: 15px;
+    width: 176px;
+    height: 23px;
+    border-radius: 3px;
+}

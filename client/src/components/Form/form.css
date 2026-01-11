@@ -1,0 +1,67 @@
+.btnHomeSend {
+  background-color: #9faeff;
+  font-family: cursive;
+  color: white;
+  height: 30px;
+  width: 88px;
+  border-radius: 12px;
+}
+
+.searchGifh2 {
+  color: white;
+  text-decoration: underline;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.containerFormSearchGif {
+  display: flex;
+  gap: 18px;
+}
+
+.containerFormSearch {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerFormSearch form input {
+  border-radius: 5px;
+  height: 30px;
+  width: 350px;
+}
+
+.containerSelectLanguageRating {
+  display: flex;
+  gap: 18px;
+}
+
+.containerBtnSendFormSearch {
+  display: flex;
+
+  margin-left: 14px;
+}
+
+.containerBtnsForm {
+  display: flex;
+  gap: 10px;
+}
+
+.containerBtnResetFormSeacher {
+  display: flex;
+}
+
+.containerSelectLanguageRating select {
+  height: 30px;
+  border-radius: 0.2rem;
+  width: 3.5vw;
+}
+
+.btnresetForm {
+  background-color: #282c34;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  width: 68px;
+}

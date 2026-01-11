@@ -1,0 +1,35 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.detail-title {
+  margin-bottom: 1rem;
+  font-size: 1.9rem;
+  color: white;
+}
+
+.detail-content {
+  margin-bottom: 1.5rem;
+}
+
+.detail-img {
+  max-width: 400px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.detail-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.detail-buttons {
+  display: grid;
+  justify-items: center;
+  gap: 15px;
+}

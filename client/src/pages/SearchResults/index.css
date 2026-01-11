@@ -1,0 +1,15 @@
+.containerBtnSearchResult {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnPagination {
+    background-color: #9faeff;
+    font-family: cursive;
+    color: white;
+    height: 30px;
+    border-radius: 12px;
+    margin-right: 25px;
+}
+
+

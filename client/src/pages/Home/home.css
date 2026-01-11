@@ -1,0 +1,26 @@
+.containerFormHome {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerFormHome form input {
+  border-radius: 7px;
+  height: 25px;
+}
+
+.h3Home {
+  text-align: center;
+  text-decoration: overline;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 15px;
+}
+.h3HomeLastSearch {
+  text-align: center;
+  text-decoration: underline;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  color: white;
+}
